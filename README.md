@@ -67,6 +67,67 @@ The core of the `MAIN_SYSTEM` is found here. It initializes the system and conne
 
 This README provides an overview of the `MAIN_SYSTEM` codebase. Detailed information about specific functions, variables, and usage can be found within the code comments.
 
+# Local System
+
+This repository contains the `LOCAL_SYSTEM` code responsible for managing local player interactions and GUI elements.
+
+## System Description
+
+The `LOCAL_SYSTEM` handles various user interface elements, animations, and interactions within the game for individual players.
+
+## System Manual
+
+This section provides a detailed guide on how to use, configure, and understand the `LOCAL_SYSTEM`.
+
+## Settings
+
+This section outlines the configurable settings and parameters of the `LOCAL_SYSTEM`.
+
+## Shortcuts
+
+Here, you can find a list of useful shortcuts and key combinations associated with the `LOCAL_SYSTEM`.
+
+## Services
+
+The system utilizes the following services provided by Roblox's game engine:
+- `TweenService`: Service for creating and controlling animations.
+- `ReplicatedStorage`: Storage for replicated game assets.
+- `Players`: Service for managing player instances.
+
+## Remotes
+
+The system communicates with the following custom remote:
+- `IntroRemote`: Remote used for managing the game introduction for players.
+
+## Instances
+
+The system interacts with specific instances within the game:
+- `Camera`: Represents the player's view camera.
+
+## Modules
+
+The system requires the following module:
+- `Cutscenes`: A module responsible for handling in-game cutscenes.
+
+## Important Variables
+
+This section highlights crucial variables used throughout the system, including GUI elements and animations.
+
+## Important Functions
+
+The `LOCAL_SYSTEM` includes important functions like:
+- `PlayFade`: Function for creating fade animations between different screens.
+- `PlayIntro`: Function for playing the game's introduction animation.
+- `PlayCutscene`: Function for playing cutscenes based on player status.
+
+## Main Code
+
+The core of the `LOCAL_SYSTEM` is found here. It initializes the system and connects various event handlers.
+
+```lua
+-- ... (Main code here)
+
+
 For questions or assistance, please contact [your contact information here].
 ```
 
